@@ -1,5 +1,3 @@
-FROM tomcat
-MAINTAINER hari@javahome.in
-RUN apt-get update
+FROM tomcat:8.0.20-jre8
 
-ADD target/myweb.war /usr/local/tomcat/webapps
+copy target/myweb*.war /usr/local/tomcat/webapps/myweb.war
