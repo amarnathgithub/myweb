@@ -39,7 +39,18 @@
 		  <scope>test</scope>
 		</dependency> -->
 	</dependencies>
-	
+	<distributionManagement>
+		<repository>
+			<id>nexus</id>
+			<name>Releases</name> 
+			<url>http://18.220.153.120:8081/nexus/content/repositories/</url>
+		</repository>
+		<snapshotRepository>
+			<id>nexus</id>
+			<name>Snapshot</name>
+			<url>http://18.220.153.120:8081/nexus/content/repositories/</url>
+		</snapshotRepository>
+  	</distributionManagement>
 		
 <build>
     <plugins>
