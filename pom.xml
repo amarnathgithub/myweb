@@ -18,6 +18,7 @@
 			<scope>provided</scope>
 		</dependency>
 			<!-- Demo git -->
+		
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
