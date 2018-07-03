@@ -31,7 +31,6 @@
 		    <artifactId>itextpdf</artifactId>
 		    <version>5.0.6</version>
 		</dependency>
-
 		<!-- <dependency>
 		  <groupId>org.sonarsource.java</groupId>
 		  <artifactId>sonar-jacoco-listeners</artifactId>
