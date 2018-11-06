@@ -42,12 +42,12 @@
 		<repository>
 			<id>nexus</id>
 			<name>Releases</name> 
-			<url>http://18.220.153.120:8081/nexus/content/repositories/releases/</url>
+			<url>http://18.216.126.186:8081/repository/myweb-rel/</url>
 		</repository>
 		<snapshotRepository>
 			<id>nexus</id>
 			<name>Snapshot</name>
-			<url>http://18.220.153.120:8081/nexus/content/repositories/snapshots/</url>
+			<url>http://18.216.126.186:8081/repository/myweb-snap/</url>
 		</snapshotRepository>
   	</distributionManagement>
 		
