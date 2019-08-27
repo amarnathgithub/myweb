@@ -50,16 +50,16 @@
 			<name>Snapshot</name>
 			<url>http://18.216.126.186:8081/repository/myweb-snap/</url>
 		</snapshotRepository> -->
-  		<repository>
-     			   <id>jfrog</id>
-      			  <name>ip-172-31-0-64.ap-southeast-2.compute.internal-releases</name>
-       			 <url>http://54.252.164.48:8081/artifactory/pipe-Release</url>
-   		 </repository>
-   		 <snapshotRepository>
-     			   <id>jfrog</id>
-      			  <name>ip-172-31-0-64.ap-southeast-2.compute.internal-snapshots</name>
-      			  <url>http://54.252.164.48:8081/artifactory/pipe-snapshot</url>
-    		</snapshotRepository>
+    <repository>
+        <id>jfrog</id>
+        <name>ip-172-31-0-64.ap-southeast-2.compute.internal-releases</name>
+        <url>http://54.252.164.48:8081/artifactory/pipe-Release</url>
+    </repository>
+    <snapshotRepository>
+        <id>jfrog</id>
+        <name>ip-172-31-0-64.ap-southeast-2.compute.internal-snapshots</name>
+        <url>http://54.252.164.48:8081/artifactory/pipe-snapshot</url>
+    </snapshotRepository>
   	</distributionManagement>
 		
 <build>
