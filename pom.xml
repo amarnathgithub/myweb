@@ -49,11 +49,11 @@
 			<name>Snapshot</name>
 			<url>http://18.216.126.186:8081/repository/myweb-snap/</url>
 		</snapshotRepository> -->
-  		<ReleaseRepository>
+  		<repository>
      			   <id>jfrog</id>
       			  <name>ip-172-31-0-64.ap-southeast-2.compute.internal-releases</name>
        			 <url>http://3.105.229.179:8081/artifactory/pipe-Release</url>
-   		 </ReleaseRepository>
+   		 </repository>
    		 <snapshotRepository>
      			   <id>jfrog</id>
       			  <name>ip-172-31-0-64.ap-southeast-2.compute.internal-snapshots</name>
