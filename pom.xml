@@ -39,7 +39,7 @@
 		</dependency> -->
 	</dependencies>
 	<distributionManagement>
-		<repository>
+		<!--<repository>
 			<id>nexus</id>
 			<name>Releases</name> 
 			<url>http://18.216.126.186:8081/repository/myweb-rel/</url>
@@ -48,7 +48,17 @@
 			<id>nexus</id>
 			<name>Snapshot</name>
 			<url>http://18.216.126.186:8081/repository/myweb-snap/</url>
-		</snapshotRepository>
+		</snapshotRepository> -->
+  		<ReleaseRepository>
+     			   <id>jfrog</id>
+      			  <name>ip-172-31-0-64.ap-southeast-2.compute.internal-releases</name>
+       			 <url>http://3.105.229.179:8081/artifactory/pipe-Release</url>
+   		 </ReleaseRepository>
+   		 <snapshotRepository>
+     			   <id>jfrog</id>
+      			  <name>ip-172-31-0-64.ap-southeast-2.compute.internal-snapshots</name>
+      			  <url>http://3.105.229.179:8081/artifactory/pipe-snapshot</url>
+    		</snapshotRepository>
   	</distributionManagement>
 		
 <build>
