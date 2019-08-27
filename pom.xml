@@ -9,6 +9,7 @@
 	<url>http://maven.apache.org</url>
 	<properties>
 		<docker.image.prefix>amarrekkala</docker.image.prefix>
+		<sonar.host.url>http://3.105.229.179:9000/</sonar.host.url>
 	</properties>	
 	<dependencies>
 		<dependency>
