@@ -9,7 +9,7 @@
 	<url>http://maven.apache.org</url>
 	<properties>
 		<docker.image.prefix>amarrekkala</docker.image.prefix>
-		<sonar.host.url>http://54.252.164.48:9000/</sonar.host.url>
+		<sonar.host.url>http://52.63.136.219:9000/</sonar.host.url>
 	</properties>	
 	<dependencies>
 		<dependency>
@@ -53,12 +53,12 @@
     <repository>
         <id>jfrog</id>
         <name>ip-172-31-0-64.ap-southeast-2.compute.internal-releases</name>
-        <url>http://54.252.164.48:8081/artifactory/pipe-Release</url>
+        <url>http://52.63.136.219:8081/artifactory/pipe-Release</url>
     </repository>
     <snapshotRepository>
         <id>jfrog</id>
         <name>ip-172-31-0-64.ap-southeast-2.compute.internal-snapshots</name>
-        <url>http://54.252.164.48:8081/artifactory/pipe-snapshot</url>
+        <url>http://52.63.136.219:8081/artifactory/pipe-snapshot</url>
     </snapshotRepository>
   	</distributionManagement>
 		
